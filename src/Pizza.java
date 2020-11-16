@@ -1,4 +1,8 @@
-public class Pizza {
+package src;
+
+import java.io.Serializable;
+
+public class Pizza implements Serializable {
     @Override
     public String toString() {
         return "Pizza{" +
@@ -7,6 +11,6 @@ public class Pizza {
                 '}';
     }
 
-    Dough dough = new Dough();
+   Dough dough = new Dough();
     String filling;
 }

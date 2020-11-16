@@ -1,4 +1,8 @@
-public class Dough {
+package src;
+
+import java.io.Serializable;
+
+public class Dough implements Serializable {
 String size;
 String type;
 
